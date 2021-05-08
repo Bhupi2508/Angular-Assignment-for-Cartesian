@@ -1,0 +1,58 @@
+.main-div {
+    background-color: whitesmoke;
+}
+
+.matcard-div {
+    max-width: 91%;
+    background-color: white;
+}
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: white;
+    width: 90%;
+    color: black;
+}
+
+.logout {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: Avenir Book;
+    color: black;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.logo {
+    color: deepskyblue;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: Avenir Book;
+}
+
+.text-1 {
+    font-family: Avenir Book;
+    font-size: 36px;
+}
+
+.text-2 {
+    font-family: Avenir Book;
+    font-size: 14px;
+}
+
+.browseButton {
+    font-family: Avenir Book;
+    font-size: 14px;
+}
+
+.label {
+    font-family: Avenir Book;
+    font-size: 14px;
+}

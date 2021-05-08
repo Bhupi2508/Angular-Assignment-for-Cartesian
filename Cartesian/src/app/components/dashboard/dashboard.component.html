@@ -1,0 +1,52 @@
+<div fxLayout="column" fxLayoutGap="15px" fxLayoutAlign="space-between center" class="main-div">
+    <div fxLayout="row" fxLayoutAlign="space-around center">
+        <div class="logo">
+            LOGO
+        </div>
+        <div>
+            <a class="logout" href="">Logout</a>
+        </div>
+    </div>
+    <mat-card>
+        <div fxLayout="column" fxLayoutGap="20px">
+            <div class="text-1">
+                Load raw data
+            </div>
+            <div class="text-2">
+                The first step is load the raw data
+            </div>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center">
+            <div fxLayout="row" fxLayoutAlign="space-around center">
+                <div>
+                    <label class="label">Transaction File &nbsp;</label>
+                </div>
+                <div>
+                    <button class="browseButton" style="display:block;width:120px; height:30px;"
+                        onclick="document.getElementById('getFile').click()">Browse</button>
+                </div>
+                <input type='file' id="getFile" style="display:none">
+            </div>
+            <div>
+                <!-- <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                </form> -->
+                <!-- <input type=file hidden id=choose>
+                <input type=button onClick=getFile.simulate() value=getFile>
+                <label id=selected>Nothing selected</label> -->
+                <!-- <input type="button" id="loadFileXml" value="Browse" (click)="fileFn($event)" />
+                <input type="file" style="display:none;" id="file" name="file" /> -->
+                <form action="myform.cgi"> <input type="file" name="fileupload" value="fileupload" id="fileupload">
+                    <label for="fileupload"> Select a file to upload</label>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </mat-card>
+    <div class="footer">© 2021 | Cartesian Consulting Pvt. Ltd. All rights reserved.
+        <a href='www.solus.ai'>www.solus.ai</a> |
+        <a href='https://cartesianconsulting.com'>https://cartesianconsulting.com
+        </a>
+    </div>
+</div>
